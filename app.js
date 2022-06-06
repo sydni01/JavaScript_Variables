@@ -8,6 +8,9 @@ const firstName = "Sydni";
 let lastName = "Miles";
 var age = 20;
 
+console.log("firstName :", firstName);
+console.log("lastName :", lastName);
+
 // Exercise 2
 firstName = "Sydni"; 
 lastName = "Miles";
@@ -17,6 +20,8 @@ age = 20;
 let language = "JavaScript";
 let createdYear = 1995;
 let isCaseSensitive = true;
+
+console.log(`${language} was first released in ${createdYear}. `);
 
 // Exercise 4
 let price = 19.99;
@@ -32,3 +37,4 @@ let author = "Patrick Rothfuss";
 let pageCount = 722;
 let bookmark = 456;
 let hasRead = true;
+
